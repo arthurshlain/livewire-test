@@ -14,7 +14,8 @@ class ItemUpload extends Component
             'name' => 'Test Item',
             'categories' => [
                 1
-            ]
+            ],
+            'quantity' => 0
         ]
     ];
 

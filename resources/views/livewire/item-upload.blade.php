@@ -28,6 +28,9 @@
                                                     wire:model="items.{{ $index }}.categories" />
                 </div>
 
+                {{-- Counter --}}
+                <x-input-counter wire:model="items.{{ $index }}.quantity" />
+
                 {{-- Delete item buttn --}}
                 <button aria-label="Remove item"
                         wire:click.stop="removeUploadItem({{ $index }})">Delete this item</button>
